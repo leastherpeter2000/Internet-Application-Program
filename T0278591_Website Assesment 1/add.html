@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Dian Candle - Cart</title>
+    </head>
+    <body>
+        <header class="header" id="text">
+            <div class="logo_navbar">
+                <a href="index.html"><img src="image/Dian Logo.png" class="Dian Candle Logo" alt="#"></a>
+            </div>
+            <nav>
+                <ul class="brand">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="aboutproduct.html">About</a></li>
+                        <li><a href="member.html">Member</a></li>
+                        <li id="lg-bag">
+                            <a class="active" href="add.html"><i class="bx bx-shopping-bag add-cart"></i></a>
+                        </li>
+                        <li id="toggleDark">
+                            <i class="bi bi-brightness-high-fill"></i>
+                        </li>  
+                </ul>
+            </nav>
+            <div id="navbaricon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="aboutproduct.html">About</a></li>
+                    <li><a href="member.html">Member</a></li>
+                    <li id="lg-bag">
+                        <a class="active" href="add.html"><i class="bx bx-shopping-bag add-cart"></i></a>
+                    </li>
+                    <li id="toggleDark">
+                        <i class="bi bi-brightness-high-fill"></i>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="add_wallpaper">
+            <h2>Cart</h2>
+        </section>
+
+        <section id="cart" class="section-p1" id="text">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="fas fa-trash-alt"></a></td>
+                        <td><img src="image/Dian1.png" alt="#"></td>
+                        <td>Candle - Tea Tree</td>
+                        <td>£15</td>
+                        <td><input type="number" value="1"></td>
+                        <td>£15</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fas fa-trash-alt"></a></td>
+                        <td><img src="image/Dian2.png" alt="#"></td>
+                        <td>Candle - Lemon Grass</td>
+                        <td>£15</td>
+                        <td><input type="number" value="1"></td>
+                        <td>£15</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fas fa-trash-alt"></a></td>
+                        <td><img src="image/3.png" alt="#"></td>
+                        <td>Linen Spray - Bergamont Lisse</td>
+                        <td>£15</td>
+                        <td><input type="number" value="1"></td>
+                        <td>£10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h2>Summary</h3>
+                <h3>Do you have a Promo Code?</h3>
+                <div>
+                    <input type="text" placeholder="Enter Promo Code">
+                    <button>Apply</button>
+                </div>
+            </div>
+
+            <div id="subtotal" id="text">
+                <h3>Cart Total</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>GBP 40</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>GBP 40</strong></td>
+                    </tr>
+                </table>
+                <button>Proceed to checkout</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <div class="logo_navbar">
+                    <img src="image/Dian Logo.png" class="Dian Candle Logo" alt="#"></a>
+                </div>
+                <p>Contact</h4>
+                <p>Address: Peverell Hall Nottingham Trent Uni, Nottingham NG11 8NS </p>
+                <p>Phone: +44 7734 826478</p>
+                <p>Hours: 09:00 AM - 18:00 PM, Monday - Saturday</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <a href="#"><i class="fab fa-facebook-f "></i></a>
+                        <a href="#"><i class="fab fa-instagram "></i></a>
+                        <a href="#"><i class="fab fa-twitter "></i></a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Dian</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col" id="text">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+                <a href="#">Information</a>
+            </div>   
+    
+            <div class="col install" id="text">
+                <p>Secured Payment Gateways</p>
+                <div class="logo_navbar">
+                    <img src="image/6220ac4b912013c51947f9c5.png">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <span class="btn active" onclick="document.getElementById('text').style.fontSize = '1em'">A</span>
+                <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.25em'">A</span>
+                <span class="btn" onclick="document.getElementById('text').style.fontSize = '2.75em'">A</span>
+            </div>
+
+            <div class="copyright" id="text">
+                <p>© Leasther Anak Peter T0278591</p>
+            </div> 
+        </footer>
+        <!--Script Java-->
+        <script src="scriptindex.js"></script> 
+    </body>
+</html>

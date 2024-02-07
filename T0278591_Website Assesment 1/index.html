@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Dian Candle - Home</title>
+    </head>
+    <body>
+        <header class="header" id="text">
+            <div class="logo_navbar">
+                <a href="index.html"><img src="image/Dian Logo.png" class="Dian Candle Logo" alt="#"></a>
+            </div>
+            <nav>
+                <ul class="brand">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="aboutproduct.html">About</a></li>
+                        <li><a href="member.html">Member</a></li>
+                        <li id="lg-bag">
+                            <a class="active" href="add.html"><i class="bx bx-shopping-bag add-cart"></i></a>
+                        </li>
+                        <li id="toggleDark">
+                            <i class="bi bi-brightness-high-fill"></i>
+                        </li>  
+                </ul>
+            </nav>
+            <div id="navbaricon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="aboutproduct.html">About</a></li>
+                    <li><a href="member.html">Member</a></li>
+                    <li id="lg-bag">
+                        <a class="active" href="add.html"><i class="bx bx-shopping-bag add-cart"></i></a>
+                    </li>
+                    <li id="toggleDark">
+                        <i class="bi bi-brightness-high-fill"></i>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <section class="containers1">
+            <video src="video/HomePage4.mp4" class="slider" loop autoplay></video>
+            <ul>
+                <li onclick="videoslider('video/HomePage1.1.mp4')"><video src="video/HomePage1.1.mp4" id="video1"></video></li>
+                <li onclick="videoslider('video/HomePage1.mp4')"><video src="video/HomePage1.mp4" id="video2"></video></li>
+                <li onclick="videoslider('video/HomePage2.mp4')"><video src="video/HomePage2.mp4" id="video3"></video></li>
+                <li onclick="videoslider('video/HomePage3.mp4')"><video src="video/HomePage3.mp4" id="video4"></video></li>
+            </ul>
+           
+        </section>
+
+        <section class="product1" class="section-p1" id="text">
+            <h2>Featured Products</h2>
+            <p>Christmas New Collection Candle & Linen Spray</p>
+
+            <div class="featured_container">
+                <article class="featured_card" onclick="window.location.href='sproduct.html';">
+                    <span class="featuredtag">Candle</span>
+
+                    <img src="image/Dian1.png" alt="" class="featured__img">
+
+                    <div class="featured__data" id="text">
+                        <h3 class="featured-title">Tea Tree</h3>
+                        <span class="featured__price">£15</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured_card" onclick="window.location.href='sproduct2.html';">
+                    <span class="featuredtag">Candle</span>
+
+                    <img src="image/Dian2.png" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured-title">Lemon Grass</h3>
+                        <span class="featured__price">£15</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured_card">
+                    <span class="featuredtag">Candle</span>
+
+                    <img src="image/Dian3.png" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured-title">Lavender</h3>
+                        <span class="featured__price">£15</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured_card">
+                    <span class="featuredtag">Candle</span>
+
+                    <img src="image/Dian4.png" alt="" class="featured__img" >
+
+                    <div class="featured__data">
+                        <h3 class="featured-title">Eucalyptus</h3>
+                        <span class="featured__price">£15</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured_card" id="text">
+                    <span class="featuredtag1">Linen Spray</span>
+
+                    <img src="image/1.png" alt="" class="featured__img" >
+
+                    <div class="featured__data">
+                        <h3 class="featured-title">French Lemon</h3>
+                        <span class="featured__price">£10</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured_card" id="text">
+                    <span class="featuredtag1">Linen Spray</span>
+
+                    <img src="image/2.png" alt="" class="featured__img" >
+
+                    <div class="featured__data">
+                        <h3 class="featured-title">Pomegranate Moonlight</h3>
+                        <span class="featured__price">£10</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured_card" id="text">
+                    <span class="featuredtag1">Linen Spray</span>
+
+                    <img src="image/3.png" alt="" class="featured__img" >
+
+                    <div class="featured__data" id="text">
+                        <h3 class="featured-title">Bergamont Lisse</h3>
+                        <span class="featured__price">£10</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured_card" id="text">
+                    <span class="featuredtag1">Linen Spray</span>
+
+                    <img src="image/4.png" alt="" class="featured__img" >
+
+                    <div class="featured__data" id="text">
+                        <h3 class="featured-title">Rose & Oud</h3>
+                        <span class="featured__price">£10</span>
+                    </div>
+
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="banner" class="section-m1">
+            <div class="banner-box" id="text">
+                <h4>Register Member</h4>
+                <h2>Up to 50% Off - All Candles & Accessories</h2>
+                <a href="member.html"><button class="normal">Register</button></a>
+            </div>
+        </section>
+
+        <section class="news_letter" class="section-p1">
+            <div class="newstext" id="text">
+                <h4>Sign Up for Newsletters</h4>
+                <p>Get email updates about our latest shop and special offers!</p>
+            </div>
+            <div class="form1" id="text">
+                <input type="text" placeholder="Your email">
+                <button>Sign Up</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col" id="text">
+                <div class="logo_navbar">
+                    <img src="image/Dian Logo.png" class="Dian Candle Logo" alt="#"></a>
+                </div>
+                <p>Contact</h4>
+                <p>Address: Peverell Hall Nottingham Trent Uni, Nottingham NG11 8NS </p>
+                <p>Phone: +44 7734 826478</p>
+                <p>Hours: 09:00 AM - 18:00 PM, Monday - Saturday</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <a href="#"><i class="fab fa-facebook-f "></i></a>
+                        <a href="#"><i class="fab fa-instagram "></i></a>
+                        <a href="#"><i class="fab fa-twitter "></i></a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col" id="text">
+                <h4>About</h4>
+                <a href="#">About Dian</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col" id="text">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+                <a href="#">Information</a>
+            </div>   
+    
+            <div class="col install" id="text">
+                <p>Secured Payment Gateways</p>
+                <div class="logo_navbar">
+                    <img src="image/6220ac4b912013c51947f9c5.png">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <span class="btn active" onclick="document.getElementById('text').style.fontSize = '1em'">A</span>
+                <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.25em'">A</span>
+                <span class="btn" onclick="document.getElementById('text').style.fontSize = '2.75em'">A</span>
+            </div>
+
+            <div class="copyright" id="text">
+                <p>© Leasther Anak Peter T0278591</p>
+            </div> 
+        </footer>
+
+        <!--Script Java-->
+        <script src="scriptindex.js"></script>
+    </body>
+</html>

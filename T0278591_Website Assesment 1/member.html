@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+        <title>Dian Candle - Member</title>
+    </head>
+    <body>
+        <header class="header" id="text">
+            <div class="logo_navbar">
+                <a href="index.html"><img src="image/Dian Logo.png" class="Dian Candle Logo" alt="#"></a>
+            </div>
+            <nav>
+                <ul class="brand" id="text">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="aboutproduct.html">About</a></li>
+                        <li><a href="member.html">Member</a></li>
+                        <li id="lg-bag">
+                            <a class="active" href="add.html"><i class="bx bx-shopping-bag add-cart"></i></a>
+                        </li>
+                        <li id="toggleDark">
+                            <i class="bi bi-brightness-high-fill"></i>
+                        </li>  
+                </ul>
+            </nav>
+            <div id="navbaricon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="aboutproduct.html">About</a></li>
+                    <li><a href="member.html">Member</a></li>
+                    <li id="lg-bag">
+                        <a class="active" href="add.html"><i class="bx bx-shopping-bag add-cart"></i></a>
+                    </li>
+                    <li id="toggleDark">
+                        <i class="bi bi-brightness-high-fill"></i>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="container5 forms" id="text">
+            <div class="form login">
+                <div class="form-content">
+                    <h3>Login</h3>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" class="input">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+
+                        <div class="form-link">
+                            <a href="#" class="forgot-pass">Forgot password?</a>
+                        </div>
+
+                        <div class="field button-field">
+                            <button>Login</button>
+                        </div>
+                    </form>
+
+                    <div class="form-link">
+                        <span>Don't have an account? <a href="#" class="link signup-link">Sign up</a></span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="media-options">
+                    <a href="https://en-gb.facebook.com/" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+
+                <div class="media-options">
+                    <a href="https://accounts.google.com/v3/signin/identifier?dsh=S403067433%3A1673211140532691&elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh47mLO75w9gr_pbRlRqq5lptwCHH_yzjojElumAKAXVOtwYeFqm0x6oyyb44-RFcJPVLYh0tw" class="field google">
+                        <img src="image/google.png" alt="" class="google-img">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="form signup">
+                <div class="form-content">
+                    <h3>Sign up</h3>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="first name" placeholder="First Name" class="input">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="last name" placeholder="Last Name" class="input">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" class="input">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Create password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Confirm password" class="password">
+                        </div>
+
+                        <div class="field button-field">
+                            <button>Signup</button>
+                        </div>
+                    </form>
+
+                    <div class="form-link">
+                        <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="media-options" id="text">
+                    <a href="https://en-gb.facebook.com/" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+
+                <div class="media-options">
+                    <a href="https://accounts.google.com/v3/signin/identifier?dsh=S403067433%3A1673211140532691&elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh47mLO75w9gr_pbRlRqq5lptwCHH_yzjojElumAKAXVOtwYeFqm0x6oyyb44-RFcJPVLYh0tw" class="field google">
+                        <img src="image/google.png" alt="" class="google-img">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="section-p1" id="text">
+            <div class="col">
+                <div class="logo_navbar">
+                    <img src="image/Dian Logo.png" class="Dian Candle Logo" alt="#"></a>
+                </div>
+                <p>Contact</h4>
+                <p>Address: Peverell Hall Nottingham Trent Uni, Nottingham NG11 8NS </p>
+                <p>Phone: +44 7734 826478</p>
+                <p>Hours: 09:00 AM - 18:00 PM, Monday - Saturday</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <a href="#"><i class="fab fa-facebook-f "></i></a>
+                        <a href="#"><i class="fab fa-instagram "></i></a>
+                        <a href="#"><i class="fab fa-twitter "></i></a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col" id="text">
+                <h4>About</h4>
+                <a href="#">About Dian</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col" id="text">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+                <a href="#">Information</a>
+            </div>   
+    
+            <div class="col install" id="text">
+                <p>Secured Payment Gateways</p>
+                <div class="logo_navbar">
+                    <img src="image/6220ac4b912013c51947f9c5.png">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <span class="btn active" onclick="document.getElementById('text').style.fontSize = '1em'">A</span>
+                <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.25em'">A</span>
+                <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.75em'">A</span>
+            </div>
+
+            <div class="copyright" id="text">
+                <p>© Leasther Anak Peter T0278591</p>
+            </div> 
+        </footer>
+
+        <!-- Script Java -->
+        <script src="scriptmember.js"></script>  
+        <script src="scriptindex.js"></script>
+    </body>
+</html>
+
+
