@@ -1,5 +1,5 @@
 # Internet-Application-Program
-#Assessment 1
+# Assessment 1
 The develop an e-commerce Website with at least five pages promoting a product or service of your choice. At a minimum, your website must include the following:
 1. Home (index.html) consisting of section/article elements describing some applications or benefit of the product to your audience. These should contain one or more images each.
 2. Product pages generally promoting each product. This should have a relevant video. (Note that you are not required to create a video file).
